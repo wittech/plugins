@@ -27,7 +27,7 @@ import android.view.Display;
 import android.view.OrientationEventListener;
 import android.view.Surface;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;

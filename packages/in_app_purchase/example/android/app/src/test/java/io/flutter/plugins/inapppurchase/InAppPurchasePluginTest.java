@@ -28,7 +28,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingClient.BillingResponse;
 import com.android.billingclient.api.BillingClient.SkuType;
