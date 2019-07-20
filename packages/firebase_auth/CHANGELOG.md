@@ -1,3 +1,15 @@
+## 0.11.1+11
+
+* On iOS, `getIdToken()` now uses the `refresh` parameter instead of always using `true`.
+
+## 0.11.1+10
+
+* On Android, `providerData` now includes `UserInfo` for the phone authentication provider.
+
+## 0.11.1+9
+
+* Update README to clarify importance of filling out all fields for OAuth consent screen.
+
 ## 0.11.1+8
 
 * Automatically register for iOS notifications, ensuring that phone authentication
