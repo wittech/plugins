@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
 import io.flutter.plugin.common.MethodCall;
 import java.util.HashMap;
 import java.util.Map;
