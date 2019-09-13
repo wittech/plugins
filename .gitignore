@@ -41,3 +41,4 @@ build/
 .project
 .classpath
 .settings
+packages/image_picker/example/android/.settings/org.eclipse.buildship.core.prefs
