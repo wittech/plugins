@@ -32,16 +32,9 @@ static const int SOURCE_GALLERY = 1;
   FlutterMethodChannel *channel =
       [FlutterMethodChannel methodChannelWithName:@"plugins.flutter.io/image_picker"
                                   binaryMessenger:[registrar messenger]];
-  UIViewController *viewController = nil;
-  if ([registrar isKindOfClass:[FlutterViewController class]]) 
-  {  
-    viewController = registrar;
-  }
-  else
-  {
-    viewController = [UIApplication sharedApplication].delegate.window.rootViewController;
-  }
-  
+  // UIViewController *viewController = [UIApplication sharedApplication].delegate.window.rootViewController; 
+  UIWindow *window = [UIApplication sharedApplication].keyWindow;
+  UIViewController *viewController = window.rootViewController;
   FLTImagePickerPlugin *instance =
       [[FLTImagePickerPlugin alloc] initWithViewController:viewController];
   [registrar addMethodCallDelegate:instance channel:channel];
