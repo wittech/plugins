@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Flutter plugin that shows an image picker.
                        DESC
-  s.homepage         = 'https://github.com/flutter/plugins/tree/master/packages/image_picker'
+  s.homepage         = 'https://github.com/wittech/plugins/tree/master/packages/image_picker'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Flutter Team' => 'flutter-dev@googlegroups.com' }
   s.source           = { :path => '.' }
